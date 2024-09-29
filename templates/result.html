@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.jpg') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='tailwind.min.css') }}">
+    <title>Result</title>
+</head>
+<body>
+    <div class="min-h-screen flex items-center justify-center bg-gray-300">
+        <div class="flex flex-col items-center justify-center w-full max-w-lg p-8 bg-white rounded-lg shadow-xl">
+            <div class="text-center mb-6">
+                <h2 class="text-2xl font-semibold">Extraction Result</h2>
+            </div>
+            <div class="w-full mb-4">
+                <p class="text-lg font-medium"><strong>Hackathon Name:</strong> {{ dictionary['hackathon_name'] }}</p>
+            </div>
+            <div class="w-full mb-4">
+                <p class="text-lg font-medium"><strong>Participant Name:</strong> {{ dictionary['name'] }}</p>
+            </div>
+            <div class="w-full mb-4">
+                <p class="text-lg font-medium text-green-600 text-center">
+                    <strong>{{ verify_result }} </strong>
+                </p>
+            </div>
+            <div class="mt-6">
+                <a href="/" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full transition duration-200 ease-in-out">Back to Home</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

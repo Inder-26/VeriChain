@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeoX Chain</title>
+    <!-- favicon -->
+    <link rel="icon" href="{{ url_for('static', filename='favicon.jpg') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+  </head>
+  <body data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0">
+    <div class="loader-wraper" style="display: none;">
+      <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+
+    <section class="home py-5 d-flex align-items-center" id="header">
+      <div class="container text text-light py-5 aos-init aos-animate" data-aos="fade-right">
+        <h1 class="headline text">
+          Automate <span class="text-info">verification</span>  <br>
+          within your Organization
+        </h1>
+        <p class="para  py-3">
+          The NeoXChain platform is a top-tier Document Verification solution <br>
+          designed to improve the efficiency and security of your operations.
+        </p>
+
+        <div class="my-3">
+          <a class="btn bg-danger text-white" href="/upload_details">Upload Details</a>
+          <a class="btn bg-danger text-white" href="/verify">Go Verify</a>
+        </div>
+      </div>
+      <!-- end of container -->
+    </section>
+    <!-- end of home -->
+
+    </body>
+</html>
