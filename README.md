@@ -42,7 +42,7 @@ VeriChain aims to revolutionize document verification by leveraging AI for text 
 ![Image 1](./images/img1.png)
 ![Image 2](./images/img2.png)
 ![Image 3](./images/img3.png)
-![Video](./VeriChain.png)
+![Video](./VeriChain.mp4)
 
 ## **Technologies Used**
 - **AI Gemini API**: For Optical Character Recognition (OCR) to extract text from document images.
