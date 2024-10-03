@@ -14,7 +14,11 @@ VeriChain aims to revolutionize document verification by leveraging AI for text 
 ## **Project Structure**
 ```
 .
+├── .env
 ├── app.py
+├── requirements.txt
+├── README.md
+├── document_verification.db
 ├── static/
 │   ├── tailwind.min.css
 │   ├── main.css
@@ -26,9 +30,6 @@ VeriChain aims to revolutionize document verification by leveraging AI for text 
 │   ├── upload.html
 │   ├── verify.html
 ├── uploads/
-├── README.md
-├── .env
-├── document_verification.db
 ```
 
 ## **How It Works**
@@ -42,7 +43,6 @@ VeriChain aims to revolutionize document verification by leveraging AI for text 
 ![Image 1](./images/img1.png)
 ![Image 2](./images/img2.png)
 ![Image 3](./images/img3.png)
-![Video](./VeriChain.mp4)
 
 ## **Technologies Used**
 - **AI Gemini API**: For Optical Character Recognition (OCR) to extract text from document images.
@@ -58,12 +58,17 @@ using the given commands
 
 To deploy the application locally:
 
-1. Clone the repository:
+1. Clone the repository and install requirements:
    ```bash
    git clone https://github.com/inder-26/verichain.git
    cd verichain
+   pip install -r requirements.txt
    ```
 2. Run `app.py` using python to interact with the system.
+   ```bash
+   python app.py
+   ```
+3. Open `http://127.0.0.1:5000` after running `app.py`
 
 ---
 
