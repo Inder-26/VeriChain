@@ -39,10 +39,10 @@ VeriChain aims to revolutionize document verification by leveraging AI for text 
 4. **Blockchain Storage**: The generated hash is stored securely on the NeoX blockchain, ensuring tamper-proof storage.
 5. **Automated Detection**: When the user enters or leaves the location again, the system automatically detects the card and verifies it against the stored hash.
 
-## **ScrenShots**
-![Image 1](./images/img1.png)
-![Image 2](./images/img2.png)
+## **ScreenShots**
 ![Image 3](./images/img3.png)
+![Image 2](./images/img2.png)
+![Image 1](./images/img1.png)
 
 ## **Technologies Used**
 - **AI Gemini API**: For Optical Character Recognition (OCR) to extract text from document images.
